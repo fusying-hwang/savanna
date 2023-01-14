@@ -6,5 +6,8 @@ py_binary(
     imports = [".."],
     main = "__main__.py",
     visibility = ["//:__subpackages__"],
-    deps = ["@pip_numpy//:pkg"],
+    deps = [
+        "@pip_numpy//:pkg",
+        "@pip_pandas//:pkg",
+    ],
 )

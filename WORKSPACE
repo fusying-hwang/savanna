@@ -96,7 +96,7 @@ pip_parse(
     # Here, we use the interpreter constant that resolves to the host interpreter from the default Python toolchain.
     python_interpreter_target = interpreter,
     # Set the location of the lock file.
-    requirements_lock = "//:requirements.txt",
+    requirements_lock = "//:requirements_lock.txt",
 )
 
 # Load the install_deps macro.
